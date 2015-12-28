@@ -1,0 +1,44 @@
+
+.class { behavior:url(js/PIE.htc); position:absolute;}
+
+body {
+	min-width: 1170px;
+}
+#form .invalid .error-message, #form .empty .empty-message {
+	opacity: 1;
+	display: block;
+}
+#form .error-message, #form .empty-message {
+	display: none;
+}
+
+.sf-menu .sub-menu{
+	background: #727272;
+}
+.sf-menu .with-ul__sub:after{
+	display: none;
+}
+
+.showcase_btn:hover{
+	text-decoration: underline;
+	background: #928e92;
+}
+.btn:hover, .btns a:hover{
+	text-decoration: underline;
+}
+.btn:after, .btns:after{
+	display: none;
+}
+.info-hor_block img {
+	height: 87px;
+}
+#toTop:hover i{
+	color: #000;
+}
+
+.lbHover{
+	display: none;
+}
+.thumbs_img div:hover .lbHover{
+	display: block;
+}
