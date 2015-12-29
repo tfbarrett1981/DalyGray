@@ -3,6 +3,10 @@ header{
 	
 }
 
+header h1 img{
+	width:250px;
+}
+
 header .container{
 	position: relative;
 }
